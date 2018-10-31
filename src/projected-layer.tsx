@@ -85,8 +85,9 @@ export class ProjectedLayer extends React.Component<Props, OverlayParams> {
   }
 
   public renderIntoContainer(child: React.ReactNode): React.ReactNode {
+    const { map } = this.props;
     if (this.props.type === 'marker') {
-      const container = this.context.map.getCanvasContainer();
+      const container = map.getCanvasContainer();
 
       return container ? createPortal(child, container) : child;
     }
