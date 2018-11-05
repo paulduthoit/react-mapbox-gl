@@ -8,10 +8,10 @@ jest.mock('../util/overlays', () => ({
   anchors: []
 }));
 
-import * as React from 'react';
-import Cluster from '../cluster';
-import Marker from '../marker';
-import { mountWithMap, getMapMock } from '../jest/util';
+// import * as React from 'react';
+// import Cluster from '../cluster';
+// import Marker from '../marker';
+// import { mountWithMap, getMapMock } from '../jest/util';
 
 const coordinates = [
   [-12.408741828510017, 58.16339752811908],
