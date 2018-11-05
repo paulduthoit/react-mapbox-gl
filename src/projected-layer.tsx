@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { createPortal } from 'react-dom';
-import * as PropTypes from 'prop-types';
 import { Map, Point } from 'mapbox-gl';
 import { OverlayParams, overlayState, overlayTransform } from './util/overlays';
 import { Anchor } from './util/types';
