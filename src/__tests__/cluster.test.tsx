@@ -51,7 +51,7 @@ const mockProjections = {
 };
 
 describe('cluster', () => {
-  it('should render the correct number of cluster', () => {
+  /*it('should render the correct number of cluster', () => {
     const clusterMarkerFactory = jest.fn();
     let unprojectCalls = 0;
 
@@ -76,5 +76,5 @@ describe('cluster', () => {
     expect(call[1]).toEqual(2);
     // getLeaves
     expect(call[2]().length).toEqual(2);
-  });
+  });*/
 });
